@@ -16,7 +16,7 @@ To learn more about `data.task` specifically, see my brain dump on the library
 [here](https://github.com/jimf/fp-cheetsheet/blob/master/promises-as-futures.md)
 where I compare its usage with that of ES6 promises.
 
-The React code that we looked at can be found [here](TODO).
+The React code that we looked at can be found [here](https://github.com/jimf/http-decision-tree).
 
 ## Related Links
 
