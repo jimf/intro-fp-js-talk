@@ -81,10 +81,18 @@ const scaleToRange = R.curry((min, max, decimal) =>
 const lottery = (dec, values) =>
     R.nth(scaleToRange(0, values.length, dec), values);
 
+// Make an rng with given seed.
+const rng = makeRng(1);
 
+// Uncomment to check out the RNG distribution:
+// $ node index.js | egrep -o '[0-9]+' | sort -n | uniq -c
+// console.log(R.times(R.compose(scaleToRange(0, 23), rng), 100));
+// console.log(R.times(R.compose(scaleToRange(0, 23), Math.random), 100));
+
+// Uncomment to view all names in contention for the giveaway.
+// const program = getNamesForGiveaway;
+// program().fork(console.warn, console.log);
+
+// Uncomment to pick a winner!
 const program = rand => R.lift(lottery)(Task.of(rand), getNamesForGiveaway());
-
-// console.log(R.times(R.compose(scaleToRange(0, 17), rng), 100));
-
-const rng = makeRng(Date.now());
 program(rng()).fork(console.warn, console.log);
