@@ -27,7 +27,7 @@ The React code that we looked at can be found [here](https://github.com/jimf/htt
 
 MIT
 
-[slides]: https://speakerdeck.com/jimf/intro-to-fp-in-javascript
+[slides]: https://speakerdeck.com/jimf/intro-to-functional-style-programming-in-js
 [BucksCoJS]: http://www.meetup.com/Bucks-Co-Js/events/230520592/
 [Ramda mug]: http://www.zazzle.com/ramda_coffee_mug-168294919219766885
 [Ramda]: http://ramdajs.com
