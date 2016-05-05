@@ -1,6 +1,7 @@
 # Intro to Functional Programming in JavaScript Talk
 
-[Slides][slides]
+- [Video][video]
+- [Slides][slides]
 
 This repo contains resources for my [Bucks County JS][BucksCoJS] intro to
 functional programming in JavaScript, including the code used for the
@@ -27,6 +28,7 @@ The React code that we looked at can be found [here](https://github.com/jimf/htt
 
 MIT
 
+[video]: https://www.youtube.com/watch?v=ibi2qrqLfUo
 [slides]: https://speakerdeck.com/jimf/intro-to-functional-style-programming-in-js
 [BucksCoJS]: http://www.meetup.com/Bucks-Co-Js/events/230520592/
 [Ramda mug]: http://www.zazzle.com/ramda_coffee_mug-168294919219766885
